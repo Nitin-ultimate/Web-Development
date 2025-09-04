@@ -1,0 +1,19 @@
+body{
+    background-color: azure;
+}
+h1{
+    background-color: rgb(197, 157, 234);
+    text-align: center;
+    
+}
+h2{
+    background-color: rgb(127, 125, 233);
+    text-align: left
+}
+div{
+    font-size: larger;
+    padding: 3px;
+}
+select{
+    padding: 3px
+}
