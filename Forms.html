@@ -15,5 +15,28 @@
         <input type="color"><!--This is color input -->
 <!--There are various more type attributes in input -->
     </form>
+    <form action="/server">
+        <input type="checkbox" name="age" id="age" checked>
+        <label for="age">I am 18+</label>
+    </form>
+    <div>
+        <input type="radio" name="fruit" id="apple" value="apple">
+        <label for="apple">Apple</label>
+        <input type="radio" name="fruit" id="mango" value="mango">
+        <label for="mango">mango</label>
+        <input type="radio" name="fruit" id="pineapple" value="pineapple">
+        <label for="pineapple">pineapple</label>
+    </div>
+    <div>
+        <select name="profession" id="profession">
+            <option value="=stu" selected>Student</option>
+            <option value="=work">working</option>
+        </select>
+    </div>
+    <label for="vol">Select your volume</label>
+    <input type="range" id="vol" min="0" max="100" name="vol" step="10" value="80">
+    <br>
+    <label for="feedback">Fedback</label>
+    <textarea id="feedback" name="feedback"></textarea>
 </body>
 </html>
