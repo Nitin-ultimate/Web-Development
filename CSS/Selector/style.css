@@ -1,0 +1,35 @@
+ /*UNIVERSAL SELECTOR */
+* {
+    font-family: "Courier new";  
+}
+
+/* ELEMENT SELECTOR */
+h3 ,h1 {
+    color:rgb(212, 121, 10);
+}
+
+/* ID SELECTOR */
+#login {
+    background-color: brown;
+    color: white;
+}
+
+#signup {
+    background-color: blueviolet;
+    color: white;
+}
+
+/* CLASS SELECTOR */
+.upvote {
+    background-color: cadetblue;
+}
+
+/* DESCENDANT SELECTOR */
+#myId p /*Instead we can also use div[id="myId"] p*/{
+    color: blueviolet;
+}
+
+.post a {
+    background-color: darkblue;
+    color:aliceblue
+}
